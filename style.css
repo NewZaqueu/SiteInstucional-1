@@ -1,0 +1,82 @@
+/* -----------------------HEADER -----------------------*/
+
+.navbar{
+    padding: 5px 0px;
+}
+ 
+/* ----------------------- CAROUSEL HOME -----------------------*/
+
+#carousel-home{
+    margin:0;
+}
+
+#carousel-home > .col{
+    padding:0;
+}
+
+.carousel-item > div{
+    height:65vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.img1-home{ background-image: url('./assets/img/img1.jpg');}
+.img2-home{ background-image: url('./assets/img/img2.jpg');}
+.img3-home{ background-image: url('./assets/img/img3.jpg');}
+
+/* ----------------------- MAIN -----------------------*/
+
+main .container > .row{
+    margin-bottom:30px;
+}
+
+main .row .col-12 h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: slategrey 2px 2px 4px;
+}
+
+main .card img{
+    height: 300px;
+}
+
+main .card-img-overlay{
+    background-color:rgba(0, 0, 0, .8);
+    padding:0;
+    top:unset;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    height:20%;
+}
+
+main h3.overlay-title{
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 2;
+}
+
+#produtos-home{
+    background: url('./assets/img/img9.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#produtos-home .container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+/* ----------------------- FOOTER -----------------------*/
+
+footer ul{
+    padding:0px;
+    margin:0px;
+}
+
+footer ul a{
+    padding:8px 8px 8px 0px;
+}
